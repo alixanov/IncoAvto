@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./rent-car.css">
+</head>
+
+<body>
+    <div class="rent-car">
+        <div class="car-img">
+            <img src="./Rentcar/262754990 1.png" alt="">
+        </div>
+        <form method="POST" action="https://example.com/rent">
+            <h3>Аренда авто</h3>
+            <input type="text" name="" id="" placeholder="Фио">
+            <input type="text" name="" id="" placeholder="Телефон">
+            <!-- Создаем поле для ввода телефона с идентификатором phone и типом tel -->
+         
+                <!-- Создаем поле для выбора даты с идентификатором date и типом date -->
+            <div class="year-time">
+              <div class="floor">
+                <label for="">Дата аренды</label>
+                <input id="date" type="date" name="date" required>
+              </div>
+
+                <div class="floor">
+                    <label for="">Время аренды</label>
+                    <input id="time" type="time" name="time" required>
+                </div>
+                <!-- Создаем поле для выбора времени с идентификатором time и типом time -->
+            </div>
+        
+            <!-- Создаем чекбокс для согласия с пользовательским соглашением с идентификатором agreement и типом checkbox -->
+         <div class="checkbox">
+            <input id="agreement" type="checkbox" name="agreement" required>
+            <label for="agreement">Я принимаю пользовательское соглашение</label>
+         </div>
+
+            <!-- Создаем кнопку для отправки формы с идентификатором submit и типом submit -->
+            <button id="send" type="submit"><a href="">Записаться</a></button>
+
+        </form>
+    </div>
+
+    <script src="./rent-car.js"></script>
+</body>
+
+</html>

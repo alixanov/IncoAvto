@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rent-car {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 0 18% 0 18%;
+}
+.car-img {
+  width: 420px;
+  height: 520px;
+}
+
+form {
+  width: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+form > h3 {
+  color: var(--text, #0f0f10);
+  font-family: "Museo Sans Cyrl 700";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96.5%; /* 24.125px */
+}
+form > input {
+  width: 316px;
+  height: 52px;
+  border-radius: 43px;
+  background: #fff;
+  box-shadow: 0px 5px 48px 0px rgba(49, 47, 47, 0.1);
+  color: var(--input-text, #c6c5c5);
+  font-family: "Museo Sans Cyrl 300";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  outline: none;
+  border: none;
+  padding-left: 25px;
+}
+
+
+/* Стилизуем элементы input с типом checkbox */
+input[type="checkbox"] {
+  /* Возвращаем ширину поля ввода к значению по умолчанию */
+  width: auto;
+  /* Возвращаем высоту поля ввода к значению по умолчанию */
+  height: auto;
+  /* Убираем тень внутри поля ввода */
+  box-shadow: none;
+}
+
+/* Стилизуем элементы button */
+button {
+width: 316px;
+height: 52px;
+border-radius: 43px;
+background: var(--gradient, linear-gradient(0deg, #077A34 0%, #19E270 100%));
+box-shadow: 0px 9px 48px 0px rgba(24, 220, 109, 0.15);
+border: none;
+outline: none;
+}
+
+button > a {
+color: var(--text-2, #FFF);
+text-align: center;
+font-family: "Museo Sans Cyrl 700";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.year-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+}
+.floor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.floor > label {
+  color: var(--text, #0F0F10);
+font-family: "Museo Sans Cyrl 300";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.floor > input {
+  width: 117px;
+height: 24px;
+color: var(--input-text, #121111);
+text-align: center;
+font-family: "Museo Sans Cyrl 300";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 43px;
+background: #FFF;
+box-shadow: 0px 5px 48px 0px rgba(49, 47, 47, 0.10);
+outline: none;
+border: none;
+}
+
+.sendpage {
+  width: 480px;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sendpage > img {
+  width: 50px;
+}

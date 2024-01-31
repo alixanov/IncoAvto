@@ -1,0 +1,39 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./test-drive.css">
+</head>
+
+<body>
+
+    <div class="test-drive">
+        <div class="left">
+            <img src="./Test drive/agefis-vKvUcdyaUhc-unsplash 1.png" alt="">
+        </div>
+        <div class="right">
+            <h3>Запись на тест драйв</h3>
+            <form action="/test-drive" method="post" id="test-drive-form">
+
+                <input type="text" id="name" name="name" placeholder="Имя" required>
+
+                <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
+                <input type="date" id="date" name="date" required>
+                <div id="time-slots">
+                    <!-- здесь будут отображаться доступные слоты времени -->
+                </div>
+                <button type="submit" id="send">Записаться</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="confirmation" id="confirmation"></div>
+
+    <script src="./test-drive.js"></script>
+</body>
+
+</html>
